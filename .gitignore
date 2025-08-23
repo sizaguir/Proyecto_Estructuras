@@ -18,17 +18,6 @@ out/
 .classpath
 bin/
 
-# Archivos de NetBeans
-nbproject/private/
-nbproject/build-impl.xml
-nbproject/project.properties
-nbproject/project.xml
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
 # Archivos de VS Code
 .vscode/
 bin/
