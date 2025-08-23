@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/8"
+      fx:controller="aeropuertovuelos.EditarVueloFXMLController"
+      alignment="CENTER" spacing="10" style="-fx-padding:20;">
+
+    <ComboBox fx:id="cmbOrigen" promptText="Origen"/>
+    <ComboBox fx:id="cmbDestino" promptText="Destino"/>
+    <TextField fx:id="txtPeso" promptText="Peso (Distancia/Tiempo/Precio)"/>
+    <TextField fx:id="txtAerolinea" promptText="Aerolínea"/>
+
+    <HBox alignment="CENTER" spacing="10">
+        <Button text="Guardar Cambios" onAction="#guardarCambios"/>
+        <Button text="Cancelar" onAction="#cancelar"/>
+    </HBox>
+</VBox>
