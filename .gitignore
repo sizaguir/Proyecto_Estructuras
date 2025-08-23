@@ -1,0 +1,26 @@
+# Archivos compilados
+*.class
+*.war
+*.ear
+
+# Carpetas de build
+build/
+dist/
+nbbuild/
+nbdist/
+
+# Archivos de configuración personal (no compartidos)
+nbproject/private/
+nbproject/genfiles.properties
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
