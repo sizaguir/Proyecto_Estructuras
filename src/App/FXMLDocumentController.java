@@ -59,7 +59,7 @@ public class FXMLDocumentController implements Initializable {
 
     private void abrirAgregarAeropuertoHandler(double posX, double posY) {
         try {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("AddAeropuertoFXML.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("resources/AddAeropuertoFXML.fxml"));
         Parent root = loader.load();
         AddAeropuertoFXMLController addController = loader.getController();
         addController.setGrafo(grafo);
