@@ -4,7 +4,6 @@
  */
 package App;
 
-import App.BuscarRutaFXMLController;
 import aeropuertovuelos.Aeropuerto;
 import aeropuertovuelos.DatosVuelos;
 import aeropuertovuelos.GrafoVuelos;
@@ -18,14 +17,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.Menu;
-import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
@@ -53,10 +48,6 @@ public class FXMLDocumentController implements Initializable {
     private MenuItem eliminarVuelo;
     @FXML
     private MenuItem eliminarAeropuerto;
-    @FXML
-    private Menu buscarRuta;
-    @FXML
-    private MenuItem editarVuelo;
 
     
     
